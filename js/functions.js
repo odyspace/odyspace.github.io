@@ -1,8 +1,6 @@
-(function(){
-	$('nav a, .quadro').mouseover(function(){
-		$('.quadro').stop().fadeIn('fast');
-	});
-	$('nav a, .quadro').mouseleave(function(){
-		$('.quadro').stop().fadeOut('fast');
-	});
-})();
+//LOADER
+$('html').append('<body><div id="space-loader"></div><div id="loader"></div></body>');
+$(window).load(function(){
+	$('#loader, #space-loader').fadeOut();
+	$('body').fadeIn(500);
+});
