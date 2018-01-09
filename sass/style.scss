@@ -1,6 +1,5 @@
-@import './base/grid.scss';
-@import './base/fonts.scss';
-@import './base/reset.scss';
-@import './base/scroll.scss';
-@import './base/forms.scss';
+@import "reset.scss";
 
+body{
+	background: url('../img/bg.jpg') repeat;
+}
